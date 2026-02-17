@@ -1,99 +1,93 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="css/style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Landing Page</title>
+<title>Automation Platform</title>
 
+<link rel="stylesheet" href="style.css">
 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<script src="js/main.js"></script>
 
 <body>
 
-<div class="container">
+<header class="container hero">
+    <div class="hero-text">
+        <h1>Automate Your Business in 7 Days</h1>
+        <p>Simple platform to manage clients, tasks and analytics.</p>
+        <a href="#features" class="btn">Get Started</a>
+    </div>
+    <img src="https://picsum.photos/500/400" alt="">
+</header>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Automate Your Business in 7 Days</h1>
-            <p>Simple platform to manage clients, tasks and analytics.</p>
-          <a href="#features" class="btn-primary">Get Started</a>
-        </div>
-        <img src="https://picsum.photos/400/300" alt="">
-    </section>
-
-    <!-- FEATURES -->
-   <h2 class="section-title" id="features">Features</h2>
-
-    <section class="features">
-        <div class="feature-card">
+<section class="container">
+    <h2 id="features" class="section-title">Features</h2>
+    <div class="grid-3">
+        <div class="card">
             <img src="https://picsum.photos/400/200?1">
             <p>Secure Infrastructure</p>
         </div>
-        <div class="feature-card">
+        <div class="card">
             <img src="https://picsum.photos/400/200?2">
             <p>Fast Setup</p>
         </div>
-        <div class="feature-card">
+        <div class="card">
             <img src="https://picsum.photos/400/200?3">
             <p>Smart Analytics</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- HOW IT WORKS -->
+<section class="container">
     <h2 class="section-title">How It Works</h2>
-
-    <section class="steps">
-        <div class="step">
+    <div class="grid-3">
+        <div class="card small">
             <h3>1. Register</h3>
             <img src="https://picsum.photos/200?4">
         </div>
-        <div class="step">
+        <div class="card small">
             <h3>2. Configure</h3>
             <img src="https://picsum.photos/200?5">
         </div>
-        <div class="step">
+        <div class="card small">
             <h3>3. Launch</h3>
             <img src="https://picsum.photos/200?6">
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- CLIENTS -->
+<section class="container">
     <h2 class="section-title">What Clients Say</h2>
-
-    <section class="clients">
-        <div class="client-card">
-            <img src="https://picsum.photos/100?7">
+    <div class="grid-3">
+        <div class="card small">
+            <img class="avatar" src="https://picsum.photos/100?7">
             <p>Amazing platform</p>
         </div>
-        <div class="client-card">
-            <img src="https://picsum.photos/100?8">
+        <div class="card small">
+            <img class="avatar" src="https://picsum.photos/100?8">
             <p>Boosted productivity</p>
         </div>
-        <div class="client-card">
-            <img src="https://picsum.photos/100?9">
+        <div class="card small">
+            <img class="avatar" src="https://picsum.photos/100?9">
             <p>Highly recommend</p>
         </div>
-    </section>
+    </div>
+</section>
 
-</div>
-
-<!-- CTA -->
 <section class="cta">
-    <h2>Ready to Start?</h2>
-    <a href="#" class="btn-secondary">Create Account</a>
-    <form id="signupForm">
-    <input type="email" id="email" placeholder="Enter your email" required>
-    <button type="submit">Create Account</button>
-    <p id="message"></p>
-</form>
-
+    <div class="container">
+        <h2>Ready to Start?</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
 </section>
 
 </body>
 </html>
+
 
 
 
