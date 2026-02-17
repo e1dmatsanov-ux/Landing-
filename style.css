@@ -52,4 +52,27 @@
     .clients {
         flex-direction: column;
     }
+@media (max-width: 768px) {
 
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .cta form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cta input {
+    width: 100%;
+  }
+
+}
