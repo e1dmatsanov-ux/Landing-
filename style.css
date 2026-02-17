@@ -14,10 +14,9 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 60px 0;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
 }
 
 /* ===== BUTTON ===== */
@@ -154,4 +153,73 @@ body {
     margin-right: 10px;
   }
 
+}
+
+/* ========================= */
+/* MOBILE ADAPTIVE VERSION  */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+
+    .steps {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .step {
+        width: 100%;
+    }
+
+    .clients {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .client-card {
+        width: 100%;
+    }
+
+    .cta form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .cta input {
+        width: 90%;
+        padding: 12px;
+        border-radius: 6px;
+        border: none;
+    }
+
+    .cta button {
+        width: 90%;
+        padding: 12px;
+        border-radius: 6px;
+        border: none;
+        background: white;
+        color: #5b4bdb;
+        font-weight: bold;
+    }
 }
